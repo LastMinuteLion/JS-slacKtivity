@@ -60,3 +60,28 @@ num1 = num2 = num3 = 2 + 2
 let gameCounter = 100
 ++gameCounter;
 console.log(gameCounter);
+/***************************************Comparisons************************************** */
+
+// console.log(2 > 1);
+// console.log(2 >= 1);
+// console.log(2 < 1);
+// console.log(2 == 1);
+// console.log(2 != 1);
+
+
+// console.log("2" > 1); // JS changes the 2 itself to a Number  
+// console.log("02" > 1);
+
+console.log(null > 0);
+console.log(null == 0);
+console.log(null >= 0);
+
+// the reason is equality check == comparison > < works differently , comparisons convert null to number
+
+console.log(undefined == 0);
+console.log(undefined > 0);
+console.log(undefined < 0);
+
+// === 
+
+console.log("2" === 2);
